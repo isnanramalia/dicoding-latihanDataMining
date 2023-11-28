@@ -14,3 +14,4 @@ soup = BeautifulSoup(html, "html.parser")
 
 # Mencetak judul halaman
 print(soup.title)
+
