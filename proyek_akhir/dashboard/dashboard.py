@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-from babel.numbers import format_currency
 sns.set(style='dark')
 
 # TODO 1: Load data
@@ -34,7 +33,7 @@ data = all_data[(all_data['dteday'] >= start_date)
                 & (all_data['dteday'] <= end_date)]
 
 # TODO 3: Main page
-st.title("Bike Sharing Data Dashboard🚴🏻")
+st.title("Bike Sharing Data Dashboard 🚲")
 with st.container():
     col1, col2 = st.columns(2)
 
