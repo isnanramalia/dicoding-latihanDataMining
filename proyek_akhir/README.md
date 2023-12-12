@@ -12,3 +12,10 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 streamlit run dashboard.py
 ```
+
+## Deploy dashboard
+```
+streamlit run dashboard.py
+```
+
+## Screen capture dashboard
